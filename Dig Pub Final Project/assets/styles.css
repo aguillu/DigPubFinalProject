@@ -1,0 +1,57 @@
+
+h1 {
+color:rgb(164, 201, 179);
+}
+
+
+
+.animated-text span {
+    display: none;
+    line-height: 1;
+    font-size: 34px;
+    color: rgb(164, 201, 179);
+  }
+  
+  .animated-text span.active {
+    display: inline;
+    font-size: medium;
+    font-size: 34px;
+    color: rgb(164, 201, 179);
+  }
+  
+  .animated-text:after {
+    content: ".";
+    display: inline;
+    width: 6px;
+    text-indent: 0;
+    background: var(--col-icon);
+    animation: blink 0.3s infinite alternate;
+    font-size: medium;
+  }
+  
+  .herofonts {
+    display: inline; 
+    font-size: 34px;
+    color: rgb(164, 201, 179);
+    font-weight: 500;
+  }
+
+
+.rounded-circle {
+  border: 5px solid rgb(164, 201, 179);
+}
+
+span#drop {
+
+  float: left; 
+
+  line-height: 85%;
+
+  width: .7em;
+
+  font-size: 400%;
+
+  font-family: georgia !important
+
+}
+
